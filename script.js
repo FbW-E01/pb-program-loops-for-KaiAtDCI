@@ -65,3 +65,16 @@ for (let i = 1; i < 1000; i++) {
 }
 console.log (`Total result ${res}`);
 
+// Bonus
+
+// 8
+let original_phrase = "otto";
+let result_phrase = "";
+for (let i = original_phrase.length-1; i >=0 ; i--) {
+    result_phrase += original_phrase[i];
+}
+if (original_phrase === result_phrase) {
+    console.log(`${original_phrase} is a palindrome.`);
+} else {
+    console.log(`${original_phrase} is not a palindrome.`);
+}
